@@ -4,7 +4,8 @@
 * What is CI/CD?
 * Why Jenkins?
 * Other tools for CI/CD
-* 
+* Why build a pipeline?
+* Business value of CI/CD
 
 ### What is CI/CD?
 CI/CD stands for Continuous Integration and Continuous Delivery (or Continuous Deployment). It is a software development practice that combines continuous integration, automated testing, and continuous delivery/deployment to enable rapid and reliable software releases. 
@@ -29,7 +30,6 @@ Jenkins is a popular choice for CI/CD because of its versatility, extensibility,
 - Azure DevOps: Azure DevOps (formerly known as Visual Studio Team Services or VSTS) is a comprehensive set of development tools provided by Microsoft, including source control, build pipelines, release management, and project management features.
 
 ### Why build a pipeline?
-Building a CI/CD pipeline brings several benefits to the software development and deployment process:
 
 - Automation: A pipeline automates various stages of the software delivery process, eliminating manual and error-prone tasks. This leads to faster, consistent, and repeatable deployments.
 - Rapid Feedback: A pipeline includes automated testing and quality checks, providing immediate feedback on code changes. This helps catch bugs and issues early in the development cycle, reducing the time and effort spent on bug fixing.
@@ -39,7 +39,6 @@ Building a CI/CD pipeline brings several benefits to the software development an
 - Scalability and Efficiency: A pipeline supports the scalability of development and deployment processes, allowing teams to handle increased workloads without sacrificing efficiency. It enables teams to deliver software more frequently and respond faster to changing business needs.
 
 ### Business value of CI/CD:
-Implementing CI/CD and building robust pipelines can bring significant business value, including:
 
 - Faster Innovation: CI/CD accelerates the pace of software delivery, enabling organizations to iterate and release new features more frequently. This allows businesses to stay competitive, respond to market demands, and drive innovation.
 - Improved Quality: By automating testing and quality checks, CI/CD reduces the risk of introducing bugs and issues into production. It ensures that software is thoroughly tested, leading to higher-quality releases and better customer experiences.
