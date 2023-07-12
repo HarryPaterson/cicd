@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 style="text-align: center;">Jenkins</h1>
 
 ### Contents
@@ -89,4 +89,18 @@
 6. Click on Git and paste your GitHub repository URL in the ‘Repository URL’ field.
 7. Click on the ‘Build Triggers’ tab and then on the ‘GitHub hook trigger for GITScm polling’. Or, choose the trigger of your choice.
 ![](https://i.imgur.com/J8DqJb2.png)
->>>>>>> 794f8a7d384fec77be1f21e78b9f12156a080e07
+
+### Merge
+
+
+### CD
+```
+rsync -avz -e "ssh -o StrictHostKeyChecking=no" app ubuntu@ec2-34-240-119-72.eu-west-1.compute.amazonaws.com:/home/ubuntu/sparta_app
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-34-240-119-72.eu-west-1.compute.amazonaws.com <<EOF
+    
+    cd sparta_app/app
+    npm install
+    pm2 kill
+    pm2 start app.js
+    
+```
